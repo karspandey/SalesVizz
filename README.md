@@ -45,14 +45,30 @@ The user interface is interactive and easy to use, with prompts guiding you thro
 Here’s an overview of the project structure:
 SalesVizz/
 ```bash
-├── app/                   # Contains the Streamlit app code
-│   ├── main.py            # Main file to run the Streamlit app
-│   └── ...                # Additional app-related files
-│
-├── .gitignore             # Git ignore file for unnecessary files
-├── LICENSE                # Project license information
-├── README.md              # Project documentation (this file)
-└── requirements.txt       # List of dependencies
+├── app/                        # Contains the Streamlit app code
+│   ├── main.py                 # Main file to run the Streamlit app
+│   ├── analytics/              # Contains analytics-related scripts
+│   │   └── analytics.py        # Handles analytics visualizations and metric calculations
+│   ├── auth/                   # Manages authentication and user sessions
+│   │   └── auth_handler.py     # Manages user authentication and security flows
+│   ├── database/               # Contains database models and schemas
+│   │   └── models.py           # Defines database schemas and ORM models
+│   ├── ml/                     # Contains machine learning-related code
+│   │   ├── model_trainer.py    # Trains machine learning models for churn prediction
+│   │   └── predictor.py        # Generates predictions using trained models
+│   ├── reports/                # Contains report generation scripts
+│   │   └── report_generator.py # Creates business intelligence reports
+│   ├── utils/                  # Utility scripts for data handling and validation
+│   │   ├── data_processor.py   # Cleans and preprocesses input data
+│   │   ├── error_messages.py   # Centralizes error message definitions
+│   │   ├── logger.py           # Configures logging for the application
+│   │   └── validators.py       # Validates user inputs and data formats
+│   ├── config.py               # Application configuration settings
+│   └── main.py                 # Entry point for the Streamlit app
+├── .gitignore                 # Git ignore file for unnecessary files
+├── LICENSE                    # Project license information
+├── README.md                  # Project documentation (this file)
+└── requirements.txt           # List of dependencies
 ```
 
 
