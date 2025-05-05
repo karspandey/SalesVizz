@@ -82,5 +82,5 @@ Make your changes and commit them with descriptive messages.
 Push your changes and submit a pull request.
 We’ll review your changes and get back to you as soon as possible.
 
-## wLicense
+## License
 SalesVizz is open-source and licensed under the MIT License. See the LICENSE file for more details.
