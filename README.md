@@ -44,7 +44,7 @@ The user interface is interactive and easy to use, with prompts guiding you thro
 ## Project Structure
 Here’s an overview of the project structure:
 SalesVizz/
-│
+```bash
 ├── app/                   # Contains the Streamlit app code
 │   ├── main.py            # Main file to run the Streamlit app
 │   └── ...                # Additional app-related files
@@ -53,6 +53,7 @@ SalesVizz/
 ├── LICENSE                # Project license information
 ├── README.md              # Project documentation (this file)
 └── requirements.txt       # List of dependencies
+```
 
 
 
@@ -65,5 +66,5 @@ Make your changes and commit them with descriptive messages.
 Push your changes and submit a pull request.
 We’ll review your changes and get back to you as soon as possible.
 
-## License
+## wLicense
 SalesVizz is open-source and licensed under the MIT License. See the LICENSE file for more details.
