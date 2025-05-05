@@ -1,0 +1,50 @@
+{
+    "generated_at": "2025-03-27 23:01:26",
+    "model_info": {
+        "model_type": "Unknown_Model",
+        "features_used": [
+            "CustomerAge",
+            "total_spend",
+            "purchase_frequency",
+            "AvgOrderValue",
+            "Tenure",
+            "churn",
+            "CustomerSatisfaction",
+            "ReturnRate",
+            "DiscountUsage",
+            "customer_id",
+            "Gender",
+            "LastPurchaseDate",
+            "MembershipStatus",
+            "product_type"
+        ]
+    },
+    "dataset_statistics": {
+        "total_customers": 1000,
+        "total_features": 14,
+        "missing_values": {
+            "customer_id": 0,
+            "CustomerAge": 0,
+            "Gender": 0,
+            "total_spend": 0,
+            "purchase_frequency": 0,
+            "AvgOrderValue": 0,
+            "LastPurchaseDate": 0,
+            "MembershipStatus": 0,
+            "Tenure": 0,
+            "churn": 0,
+            "CustomerSatisfaction": 0,
+            "product_type": 0,
+            "ReturnRate": 0,
+            "DiscountUsage": 0
+        },
+        "numerical_features": 9,
+        "categorical_features": 5
+    },
+    "churn_analysis": {
+        "churn_rate": 0.528,
+        "retained_rate": 0.472,
+        "churned_customers": 528,
+        "retained_customers": 472
+    }
+}

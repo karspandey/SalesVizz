@@ -1,0 +1,11 @@
+streamlit==1.32.0
+pandas==2.2.0
+numpy==1.26.4
+scikit-learn==1.4.0
+xgboost==2.0.3
+shap==0.44.0
+plotly==5.18.0
+optuna==3.5.0
+lime==0.2.0.1
+matplotlib==3.8.3
+seaborn==0.13.2
