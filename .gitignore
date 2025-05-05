@@ -14,3 +14,20 @@ __pycache__/
 # OS-specific files
 .DS_Store
 Thumbs.db
+# Ignore environment files
+.env
+.env.*
+
+# Ignore Jupyter Notebook temporary checkpoints
+.ipynb_checkpoints/
+
+# Ignore model artifacts or weights (if auto-generated)
+*.h5
+*.hdf5
+*.joblib
+*.sav
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.swp
